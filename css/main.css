@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
+/* There's where you would put your Google Fonts import, you can also use a <link> tag in your HTML file */
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* This is some further normalization and base styles from HTML Boilerplate. */
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* 
+Prevent Superscripts and Subscripts from Affecting Line-Height
+  https://css-tricks.com/snippets/css/prevent-superscripts-and-subscripts-from-affecting-line-height/
+*/
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub { 
+  top: 0.4em; 
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Responsive images base, put your images in a wrapper */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
+THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
+*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* END BOX MODEL SETTINGS */
+
+html {
+    font-size: 16px; /* Base Size */
+}
+
+body {
+  /*Setting the base font family*/
+  font-family: "Source Sans Pro", Verdana, sans-serif;
+  /* font weight normalization */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Don't forget your basic text styles */
+
+h1 {
+    font-size: 1.666em;
+}
+
+/* Here's a sample media query for you (above tablet). */
+
+@media only screen and (min-width: 769px) { 
+    h1 {
+        font-size: 2em;
+    }
+}
+
+/* Keep going! */
+
+
