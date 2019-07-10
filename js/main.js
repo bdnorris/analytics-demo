@@ -31,7 +31,7 @@ modalClose.addEventListener("click", function(){
   closeModals('close button')
 });
 modalScreen.addEventListener("click", function(e){
-  if(e.originalTarget.classList.contains('modal-screen'))
+  if(e.target.classList.contains('modal-screen'))
   closeModals('modal screen')
 });
 
